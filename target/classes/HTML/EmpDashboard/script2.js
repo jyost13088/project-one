@@ -1,0 +1,1 @@
+window.location = `../ViewReimb/index.html`;

@@ -1,0 +1,55 @@
+.heading { text-align:center;
+    color:blue;
+}
+.input{ color: red; }
+.leftpanel {border-style: double;
+     position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 600px;
+    top:150px;
+    padding:10px;
+    height:400px;
+    background-color: lightgray;		
+    }
+.lefttext {	
+    text-align: center;
+    }
+.leftbody { color:black; }
+.leftline { border-style: double;
+    color: brown;
+    }
+.leftsubmit { position: fixed;
+        width : 300px;
+        
+     }
+.righttpanel {border-style: double;
+position: relative;
+width: 600px;
+top:50px;
+padding:10px;
+height:375px;
+background-color: yellow;		
+}
+#submit {
+position: absolute;
+left: 75%;
+transform: translatex(-25%);
+width:150px;
+height:40px;
+background-color:aqua;
+top:325px;
+
+}
+
+#message {
+border-radius: 6px;
+color:red;
+font-size: large;
+}        
+
+#type {
+position: absolute;
+left: 75%;
+transform: translatex(-25%);
+}      

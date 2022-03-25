@@ -1,0 +1,106 @@
+#container-all {
+
+        
+    height:500px;
+    
+   
+    border:solid;
+    border-color:black;
+    background-image: url("fedex-packages.jpg");
+    
+}
+#heading { 
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    color:blue;
+    font-size:17px;
+    border-style:double;
+    border-radius:6px;
+    background-color:aquamarine;
+    width:250px;
+    text-align:center;
+    padding-top:10px;
+    height:45px;
+}
+
+.container-items 
+    {border-style: double;
+    position: absolute;
+    left: 40%;
+    transform: translatex(-60%);
+    
+    
+    width: 500px;
+    border-radius: 6px;
+    box-shadow:2ps 2px 2px 6px;
+    padding-top:15px;
+    height:400px;
+    overflow-y: scroll;
+    
+    top:125px;		
+    padding-left:20px;
+    background-color:aliceblue;
+    }
+
+#container-btn {
+    position:absolute;
+    display:flex;
+    justify-items:space-between;
+    vertical-align: middle;
+    
+    padding-top:10px;
+    position:absolute;
+    
+      
+    margin-right:5px;
+    
+    font-size:20px;
+    
+    top:175px;
+
+}
+#update-Btn{
+    width:150px;
+    height:75px;
+    padding:10px;
+ 
+
+}
+#modify-container{
+    position:absolute;
+    left:75%;
+    transform: translatex(-25%);
+    width:250px;
+    height:200px;
+    padding:10px;
+    border-radius:6px;
+    border-color:black;
+    border-style:doubled;
+    top:150px;
+    background-color:rgba(161, 168, 163, 0.582);
+    
+}
+input {
+    top:150px;
+    display:flex;
+    justify-items:right;
+    margin-bottom:25px;
+}
+   
+select {
+    top:175px;
+    left:200px;
+    display:flex;
+    justify-items:right;
+}
+#message {
+    top: 300x;
+    position: absolute;
+    left:70%;
+    transform: translatex(-30%);
+
+    font-size="25px";
+    color:red;
+}
+ 
